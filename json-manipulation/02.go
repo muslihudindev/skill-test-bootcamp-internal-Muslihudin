@@ -35,7 +35,7 @@ func main() {
 
 	var x2 []*Data
 	for _, v := range x {
-		if v.Type == "electronicclear" {
+		if v.Type == "electronic" {
 			x2 = append(x2, v)
 		}
 	}
